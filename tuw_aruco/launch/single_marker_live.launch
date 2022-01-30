@@ -16,6 +16,7 @@
         <remap from="camera_info" to="/camera/image_raw/camera_info"/>
 
         <remap from="markers" to="/markersAruco"/>
+        <remap from="tf" to="/tf_aruco"/>
     </node>
 
 </launch>
